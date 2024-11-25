@@ -5,7 +5,6 @@ import "errors"
 type Queue struct {
 	items []any
 }
-
 func (q *Queue) Enqueue(item any) {
 	q.items = append(q.items, item)
 }
